@@ -1,5 +1,7 @@
 steps:
   - label: ":python:"
+    retry:
+      automatic: true
     commands:
       - pip3 install -r requirements.txt
       - python3 house-finder.py
