@@ -2,6 +2,7 @@ steps:
   - label: ":python:"
     retry:
       automatic: true
+    timeout_in_minutes: 10
     commands:
       - pip3 install -r requirements.txt
       - python3 house-finder.py
