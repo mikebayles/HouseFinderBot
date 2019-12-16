@@ -4,5 +4,5 @@ steps:
       automatic: true
     timeout_in_minutes: 10
     commands:
-      - pip3 install -r requirements.txt
+      - pip3 install -r requirements.txt --no-cache-dir
       - python3 house-finder.py
